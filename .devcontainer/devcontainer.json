@@ -3,9 +3,6 @@
   "service": "workspace",
   "workspaceFolder": "/go/src/github.com/mkaiho/go-chat-sample-api",
   "extensions": [
-    "dbaeumer.vscode-eslint",
-    "esbenp.prettier-vscode",
-    "editorconfig.editorconfig",
-    "bradlc.vscode-tailwindcss"
+    "golang.go"
   ]
 }
