@@ -1,6 +1,6 @@
 FROM amazonlinux:2
 
-ARG GO_VERSION=1.17.5
+ARG GO_VERSION=1.18.4
 ARG NODE_VERSION=16.13.1
 ARG SRC_MODULE=github.com/mkaiho/go-chat-sample-api
 
