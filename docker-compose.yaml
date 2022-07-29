@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  workspace:
+    build:
+      context: .
+      dockerfile: ./docker/workspace/Dockerfile
+    container_name: go-chat-sample-api-workspace
+    tty: true
+    volumes:
+      - .:/go/src/github.com/mkaiho/go-chat-sample-api
+    working_dir: /go/src/github.com/mkaiho/go-chat-sample-api
+    ports:
+      - 3000:3000
