@@ -12,3 +12,9 @@ services:
     working_dir: /go/src/github.com/mkaiho/go-chat-sample-api
     ports:
       - 3000:3000
+    networks:
+      - chat-sample-network
+
+networks:
+  chat-sample-network:
+    external: true
